@@ -7,7 +7,6 @@ fs.readFile('./index.html', function read(err, data) {
     throw err;
   }
   content = data;
-  console.log(content);
   
 }); 
 
