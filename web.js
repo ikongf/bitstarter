@@ -12,7 +12,7 @@ fs.readFile('./index.html', function read(err, data) {
 }); 
 
 app.get('/', function(request, response) {
-  response.send(stuff);
+  response.send(content);
 });
 
 var port = process.env.PORT || 5000;
