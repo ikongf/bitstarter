@@ -10,6 +10,8 @@ fs.readFile('./index.html', function read(err, data) {
   
 }); 
 
+content = "test2";
+
 app.get('/', function(request, response) {
   response.send(content);
 });
